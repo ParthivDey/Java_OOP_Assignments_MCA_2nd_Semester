@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Series {
-    // Function to calculate factorial of a number
+    
     int factorial(int n) {
         int fact = 1;
         for (int i = 1; i <= n; i++) {
@@ -10,7 +10,7 @@ class Series {
         return fact;
     }
 
-    // Function to calculate the sum of the series
+    
     void calculateSum(int n) {
         double sum = 0.0;
         for (int i = 1; i <= n; i++) {
