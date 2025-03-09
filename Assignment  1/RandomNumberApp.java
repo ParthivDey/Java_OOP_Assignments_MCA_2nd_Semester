@@ -5,7 +5,7 @@ class RandomNumberGenerator {
         Random rand = new Random();
         System.out.println("5 Random Numbers between 1 to 100 are:");
         for (int i = 1; i <= 5; i++) {
-            int randomNumber = rand.nextInt(100) + 1; // Generate random number between 1 to 100
+            int randomNumber = rand.nextInt(100) + 1; 
             System.out.println("Random Number " + i + ": " + randomNumber);
         }
     }
