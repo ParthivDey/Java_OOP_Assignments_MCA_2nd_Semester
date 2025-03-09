@@ -5,7 +5,7 @@ class Sequence {
         int a = 0, b = 1;  
         int power = 2;    
         
-        System.out.println("The sequence up to " + limit + " terms:");
+        System.out.println("The sequence up to " + l + " terms:");
         for (int i = 0; i < l; i++) {
             if (i % 2 == 0) {
                 
